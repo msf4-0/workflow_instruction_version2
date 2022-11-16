@@ -93,5 +93,5 @@ Password: operator123
 <br/> 
 
 ## Demo  
+#### **Click on image to watch the demo video** 
 [![Demo Video](multimedia/img.png)](https://drive.google.com/file/d/1bUrmqlS7WzaUTkKL_JylFQr2rL43mqAh/view?usp=share_link)  
-**Click on image to watch the demo video**
