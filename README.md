@@ -32,6 +32,8 @@ mysql -u root -p < database.txt
 streamlit run work_instruction_creator.py
 ```  
 
+---  
+<br/> 
 
 ## Credentials
 ### Admin
@@ -52,6 +54,8 @@ Username: operator
 Password: operator123
 ```  
 
+---  
+<br/> 
 
 ## Features  
 ### Admin
@@ -84,6 +88,9 @@ Password: operator123
 - Filter Work Instructions
 - Send data to MQTT Broker through MQTT
 - Receive data from MQTT Broker through MQTT
+
+---  
+<br/> 
 
 ## Demo  
 [![Demo Video](multimedia/img.png)](multimedia/Work_Instruction_vid.mov)  
