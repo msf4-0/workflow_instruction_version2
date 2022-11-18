@@ -58,8 +58,12 @@ if authentication_status == None:
     st.warning('Please enter your username and password')
 
 if authentication_status:
-	authenticator.logout('Logout', 'sidebar')
+	st.sidebar.image('multimedia/MSF-LogoNobg.gif')
+	st.sidebar.subheader("Digital Work Instruction Manager")
 	st.sidebar.write(f'Welcome *{name}*')
+	authenticator.logout('Logout', 'sidebar')
+	col_s= st.columns([10, 2])
+	col_s[1].image('multimedia/MSF-LogoNobg.gif')
 
 	# mqtt broker
 	broker = 'broker.emqx.io'
